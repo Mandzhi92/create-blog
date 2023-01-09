@@ -1,0 +1,81 @@
+.oneArticle{
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(34, 60, 80, 0.2);
+}
+.articleOne{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 25px auto 25px auto;
+    width: 100%;
+}
+.info{
+    width: 80%;
+    margin-left: 19px;
+}
+.articleTitle{
+    font-family: Inter;
+    color: #1890FF;
+    font-size: 20px;
+}
+
+/* убрал подчеркивание у ссылки */
+a {
+    text-decoration: none;
+}
+
+.tags{
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid black;
+    height: 20px;
+    font-family: Inter;
+    font-size: 12px;
+    cursor: pointer;
+    overflow: hidden; 
+    max-width: 40px;
+}
+.description{
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.userInfo{
+    margin: 15px 14px auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    font-family: Inter;
+    font-size: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.date{
+    font-family: Inter;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 10px;
+}
+.avatar{
+    width: 46px;
+}
+.userIcon{
+    width: 46px;
+    height: 46px;
+}
+
+.markDown{
+    background-color: #fff;
+    height: 40px;
+}
+
+p{
+    display: block;
+    padding: 0 18px 0 18px;
+    
+}

@@ -1,0 +1,77 @@
+.article{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 25px;
+    height: 140px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(34, 60, 80, 0.2);
+}
+.info{
+    width: 80%;
+    margin-left: 19px;
+}
+.articleTitle{
+    font-family: Inter;
+    color: #1890FF;
+    font-size: 20px;
+}
+
+/* убрал подчеркивание у ссылки */
+a {
+    text-decoration: none;
+}
+
+.tag{
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid;
+    height: 20px;
+    font-family: Inter;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.description{
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.userInfo{
+    margin: 15px 14px auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    font-family: Inter;
+    font-size: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.date{
+    font-family: Inter;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 10px;
+}
+.avatar{
+    width: 46px;
+}
+.userIcon{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.likeValue{
+    margin-left: 10px;
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+    height: 25px;
+    
+}

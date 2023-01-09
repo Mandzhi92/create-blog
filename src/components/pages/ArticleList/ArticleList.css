@@ -1,0 +1,15 @@
+.container{
+    margin: 0 auto;
+    width: 941px;
+    
+}
+.spinner{
+    margin: 50px auto 30px auto;
+    width: 70px;
+    height: 50px;
+}
+.error{
+    margin: 50px auto 30px auto;
+    width: 70px;
+    height: 50px;
+}
